@@ -1,0 +1,16 @@
+PODS:
+  - libwebp (0.1.0)
+
+DEPENDENCIES:
+  - libwebp (from `../`)
+
+EXTERNAL SOURCES:
+  libwebp:
+    :path: ../
+
+SPEC CHECKSUMS:
+  libwebp: 4f46f12e93eaf7a3e2b9d3b8193b9bf15e5f93de
+
+PODFILE CHECKSUM: 888e08f7d2a409197bd0454960ff89aedbb34aeb
+
+COCOAPODS: 1.2.1

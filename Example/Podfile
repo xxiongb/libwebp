@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'libwebp_Example' do
+  pod 'libwebp', :path => '../'
+
+  target 'libwebp_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
