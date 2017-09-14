@@ -16,7 +16,7 @@ s.author          = 'Google Inc.'
 s.license         = { :type => 'BSD', :file => 'COPYING' }
 s.source          = { :git => 'https://chromium.googlesource.com/webm/libwebp', :tag => '0.6.0' }
 
-#s.compiler_flags  = '-D_THREAD_SAFE'
+s.compiler_flags  = '-fembed-bitcode'
 s.requires_arc    = false
 s.public_header_files = 'src/webp/*.h'
 #s.header_mappings_dir = 'src'

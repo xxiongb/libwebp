@@ -11,7 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-Just fix the issue about  <libwebp/decode.h> not found
+Compares to office version, when using the "use_frameworks!" flag, Just fix the issues that headers cannot be found.  please set $(SRCROOT)/../Pods/libwebp/src for User Header search paths, the concrete path depends on your project structure. and then import header should use relative path, like #import "webp/encode.h".
 
 ## Installation
 
