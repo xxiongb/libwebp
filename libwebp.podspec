@@ -23,7 +23,7 @@ s.public_header_files = 'src/webp/*.h'
 
 # Subspecs
 s.subspec 'dsp' do |dsp|
-dsp.header_dir   = 'src/dsp'
+#dsp.header_dir   = 'src/dsp'
 dsp.source_files = 'src/dsp/*.{h,c}'
 #dsp.header_mappings_dir = 'src'
 #dsp.dependency 'libwebp/utils'
