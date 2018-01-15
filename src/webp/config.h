@@ -1,5 +1,5 @@
-/* ../webp/config.h.  Generated from config.h.in by configure.  */
-/* ../webp/config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/webp/config.h.  Generated from config.h.in by configure.  */
+/* src/webp/config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
