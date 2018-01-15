@@ -1,5 +1,5 @@
-/* src/webp/config.h.  Generated from config.h.in by configure.  */
-/* src/webp/config.h.in.  Generated from configure.ac by autoheader.  */
+/* ../webp/config.h.  Generated from config.h.in by configure.  */
+/* ../webp/config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
@@ -12,6 +12,9 @@
 
 /* Set to 1 if __builtin_bswap64 is available */
 #define HAVE_BUILTIN_BSWAP64 1
+
+/* Define to 1 if you have the <cpu-features.h> header file. */
+/* #undef HAVE_CPU_FEATURES_H */
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #define HAVE_DLFCN_H 1
@@ -64,8 +67,7 @@
 /* Define to 1 if you have the <windows.h> header file. */
 /* #undef HAVE_WINDOWS_H */
 
-/* Define to the sub-directory in which libtool stores uninstalled libraries.
-   */
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
 #define LT_OBJDIR ".libs/"
 
 /* Name of package */
@@ -78,7 +80,7 @@
 #define PACKAGE_NAME "libwebp"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "libwebp 0.6.0"
+#define PACKAGE_STRING "libwebp 0.6.1"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "libwebp"
@@ -87,7 +89,7 @@
 #define PACKAGE_URL "http://developers.google.com/speed/webp"
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "0.6.0"
+#define PACKAGE_VERSION "0.6.1"
 
 /* Define to necessary symbol if this constant uses a non-standard name on
    your system. */
@@ -97,7 +99,7 @@
 #define STDC_HEADERS 1
 
 /* Version number of package */
-#define VERSION "0.6.0"
+#define VERSION "0.6.1"
 
 /* Enable experimental code */
 /* #undef WEBP_EXPERIMENTAL_FEATURES */
@@ -123,6 +125,9 @@
 /* Set to 1 if PNG library is installed */
 /* #undef WEBP_HAVE_PNG */
 
+/* Set to 1 if SDL library is installed */
+/* #undef WEBP_HAVE_SDL */
+
 /* Set to 1 if SSE2 is supported */
 /* #undef WEBP_HAVE_SSE2 */
 
@@ -131,6 +136,9 @@
 
 /* Set to 1 if TIFF library is installed */
 /* #undef WEBP_HAVE_TIFF */
+
+/* Enable near lossless encoding */
+#define WEBP_NEAR_LOSSLESS 1
 
 /* Undefine this to disable thread support. */
 #define WEBP_USE_THREAD 1

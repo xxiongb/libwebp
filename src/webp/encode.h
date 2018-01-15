@@ -394,7 +394,7 @@ WEBP_EXTERN int WebPPictureCopy(const WebPPicture* src, WebPPicture* dst);
 // '*distortion'. The refined metric (log(MSE), log(1 - ssim),...' will be
 // stored in '*result'.
 // 'x_step' is the horizontal stride (in bytes) between samples.
-// 'src/ref_stride' is the byte distance between rows.
+// '../ref_stride' is the byte distance between rows.
 // Returns false in case of error (bad parameter, memory allocation error, ...).
 WEBP_EXTERN int WebPPlaneDistortion(const uint8_t* src, size_t src_stride,
                                     const uint8_t* ref, size_t ref_stride,
